@@ -1,0 +1,30 @@
+.contact_hero_content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 15px;
+  height: 100vh;
+  position: relative;
+}
+
+.title_contact {
+  font-size: 7rem;
+  font-weight: 800;
+  color: var(--color-font-secondary);
+  opacity: 0.7;
+}
+
+.p_contact {
+  color: var(--color-font-primary);
+  opacity: 0.7;
+  font-size: 1.7rem;
+  /* width: 50vh; */
+  text-align: center;
+}
+
+.aniamtion_hero_contact {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}

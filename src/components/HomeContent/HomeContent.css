@@ -1,0 +1,30 @@
+.home_hero_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#titulo {
+  /* position: absolute; */
+}
+
+.slider {
+  display: flex;
+}
+
+#hero_hero {
+  display: flex;
+  flex-direction: column;
+  /* gap: 40rem; */
+  position: absolute;
+  align-items: center;
+  gap: 15rem;
+  bottom: 6rem;
+  width: 90vh;
+}

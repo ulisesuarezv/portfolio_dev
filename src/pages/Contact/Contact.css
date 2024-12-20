@@ -1,0 +1,19 @@
+#section_contact {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-background-contact);
+  color: var(--color-font-primary);
+}
+
+.form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact_hero_container {
+  height: 100vh;
+}

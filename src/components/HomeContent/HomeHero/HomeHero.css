@@ -1,0 +1,39 @@
+.home_hero_intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.home_hero_intro > p {
+  color: var(--color-font-primary);
+  opacity: 0.7;
+  font-size: 1.7rem;
+  width: 50vh;
+  text-align: center;
+}
+
+#titulo_home {
+  color: var(--color-font-primary);
+  font-size: 4.5rem;
+  font-weight: 700;
+}
+
+#titulo_transform {
+  /* color: var(--color-font-secondary); */
+  color: var(--color-font-tertiary);
+  /* color: #bed558; */
+  font-size: 6rem;
+  font-weight: 800;
+}
+
+.animated-title {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.animated-title.fade {
+  opacity: 0;
+  transform: translateX(-20px);
+}

@@ -1,0 +1,24 @@
+#home {
+  max-height: 100vh;
+}
+
+#skills {
+  height: 130vh;
+  background-color: rgb(26, 19, 19);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#projects {
+  height: 100vh;
+}
+
+#home_contact {
+  height: 60vh;
+  background-color: var(--color-isabella);
+}
+
+#home_footer {
+  height: 80vh;
+}

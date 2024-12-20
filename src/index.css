@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Overlock', sans-serif;
+  ::-webkit-scrollbar {
+    width: 12px; /* Standard width for the scrollbar */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #1b1c1d; /* Dark gray background for the scrollbar track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(
+      --color-button-primary
+    ); /* Gray color for the scrollbar */
+
+    border-radius: 6px; /* Rounded corners for the scrollbar */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ff4d02; /* Orange color on hover to provide visual feedback */
+  }
+
+  /* Reset scrollbar to default appearance when less than 750px */
+
+  @media (max-width: 750px) {
+    ::-webkit-scrollbar {
+      width: auto; /* Standard width for the scrollbar */
+    }
+
+    ::-webkit-scrollbar-track {
+      background: none; /* No background for the scrollbar track */
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: transparent; /* No color for the scrollbar */
+    }
+  }
+  /* color: #fafafa; */
+}
+
+/* p {
+  mix-blend-mode: difference;
+  filter: invert(1);
+} */
+
+:root {
+  --color-font-primary: #fafafa;
+  --color-font-secondary: #ff4d02;
+  --color-font-tertiary: #0a2472;
+  --color-isabella: #ef4506;
+  --color-skills-background: #222222;
+  --color-border-radius: #7b7b7b;
+  --color-background-radius: #7a7a7a;
+  --color-button-primary: #e1dd8f;
+  --color-background-contact: #0d0d0d;
+}

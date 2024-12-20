@@ -1,0 +1,27 @@
+.hero_skills_container {
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title_ref {
+  color: var(--color-font-primary);
+  position: absolute;
+  bottom: 10;
+  font-size: 18vh;
+  text-align: center;
+  font-weight: 800;
+  opacity: 0.9;
+}
+
+.hero_skills_content {
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

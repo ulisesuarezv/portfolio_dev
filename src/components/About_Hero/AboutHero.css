@@ -1,0 +1,60 @@
+#about_me {
+  height: auto;
+  background-color: var(--color-skills-background);
+}
+
+#about_me_content {
+  height: 100vh;
+}
+
+#title_h3_about {
+  color: var(--color-font-primary);
+  font-size: 22px;
+  padding-top: 1vh;
+}
+
+#about_me_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_about_me {
+  display: grid;
+  grid-template-columns: 1fr 1fr auto;
+  height: 80vh;
+  width: 60vw;
+  align-items: center;
+}
+
+.h2_p_about {
+  display: flex;
+  flex-direction: column;
+}
+
+.img_about_container {
+  display: flex;
+  justify-content: center;
+}
+
+#text_about {
+  color: var(--color-font-primary);
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+#title_about {
+  color: var(--color-font-primary);
+  font-size: 8vh;
+  font-weight: 700;
+}
+
+#about_pic {
+  width: 15vw;
+}
+
+.animation_isa_container > video {
+  border-radius: 20px;
+}
