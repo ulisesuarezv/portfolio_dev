@@ -3,6 +3,7 @@ import './Footer.css'
 import footer_animation from '/public/footer_animation.json'
 import mail_animation from '/public/card_animation.json'
 import { motion } from 'motion/react'
+import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -38,14 +39,18 @@ const Footer = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
+                <NavLink to='/about'>
                 ABOUT ME
+                </NavLink>
               </motion.h2>
               <motion.h2
                 className='h2_footer'
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
               >
+                <NavLink to='/portfolio'>
                 MY WORK
+                </NavLink>
               </motion.h2>
             </div>
             <div className='container_footer_content2'>
@@ -55,6 +60,7 @@ const Footer = () => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                 >
+
                   INSTAGRAM
                 </motion.h2>
                 <motion.h2

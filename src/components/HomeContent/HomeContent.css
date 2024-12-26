@@ -10,9 +10,7 @@
   align-items: center;
 }
 
-#titulo {
-  /* position: absolute; */
-}
+
 
 .slider {
   display: flex;
@@ -21,10 +19,9 @@
 #hero_hero {
   display: flex;
   flex-direction: column;
-  /* gap: 40rem; */
   position: absolute;
   align-items: center;
-  gap: 15rem;
+  gap: 10vh;
   bottom: 6rem;
-  width: 90vh;
+  width: 100vh;
 }

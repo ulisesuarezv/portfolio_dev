@@ -2,6 +2,7 @@
   color: var(--color-font-primary);
   font-size: 1.3vw;
   font-weight: 700;
+  text-align: center;
 }
 
 .skill_card_container {
