@@ -1,5 +1,5 @@
 import LottieRender from '../../../utils/LottieRender'
-import scroll_animation from '/public/scroll_animation.json'
+import scroll_animation from '/src/assets/animations/scroll_animation.json'
 import './HeroContainer.css'
 import { Text } from '@chakra-ui/react'
 

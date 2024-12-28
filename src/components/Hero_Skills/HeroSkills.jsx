@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react'
 import LottieRender from '../../utils/LottieRender'
 import './HeroSkills.css'
-import fluid_animation from '/public/fluid_animation.json'
+import fluid_animation from '/src/assets/animations/fluid_animation.json'
 import { Box, Divider, Text } from '@chakra-ui/react'
-import scroll_animation from '/public/scroll_animation.json'
+import scroll_animation from '/src/assets/animations/scroll_animation.json'
 import { motion } from 'motion/react'
 
 const HeroSkills = () => {

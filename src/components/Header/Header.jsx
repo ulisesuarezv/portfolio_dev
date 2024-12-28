@@ -33,7 +33,7 @@ const Header = () => {
           animate='visible'
           transition={{ duration: 0.5, delay: 0.25 }}
         >
-          <img src='/public/ulises_logo.jpg' alt='' id='logo_img' />
+          <img src='/ulises_logo.jpg' alt='' id='logo_img' />
         </motion.div>
       </NavLink>
       <motion.div

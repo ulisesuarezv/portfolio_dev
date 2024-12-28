@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  width: fit-content;
 }
 
 .home_hero_intro > p {

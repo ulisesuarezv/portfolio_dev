@@ -1,7 +1,7 @@
 import CardExperience from '../Card_Experience/CardExperience'
 import './Timeline.css'
 import LottieRender from '../../utils/LottieRender'
-import animation from '/public/animation_about.json'
+import animation from '/src/assets/animations/animation_about.json'
 import { motion } from 'motion/react'
 
 const Timeline = () => {

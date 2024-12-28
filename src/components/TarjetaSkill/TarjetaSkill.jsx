@@ -1,7 +1,7 @@
 import { motion } from 'motion/react'
 import LottieRender from '../../utils/LottieRender'
 import './TarjetaSkill.css'
-import animationJSON from '/public/card_animation2.json'
+import animationJSON from '/src/assets/animations/card_animation2.json'
 const TarjetaSkill = () => {
   return (
     <motion.div

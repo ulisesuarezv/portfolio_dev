@@ -15,8 +15,8 @@ const AboutHero = () => {
                 FrontEnd Developer based in Sevilla, Spain.
               </h3>
               <p id='text_about'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
-                atque consequatur? Laboriosam quos illum eos maxime recusandae.
+                Learning and growing.
+                Applying design and development to craft experiences that connect with the users keeping in mind requirements to convert potential clients into regular customers.
               </p>
             </div>
             <motion.div

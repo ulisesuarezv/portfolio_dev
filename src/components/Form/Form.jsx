@@ -17,26 +17,26 @@ const Form = () => {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className='form_styles'>
       <div className='form_info'>
-        <label htmlFor='name'>Nombre:</label>
+        <label htmlFor='name'>Name:</label>
         <input
           type=''
-          {...register('name', { required: 'El nombre es obligatorio' })}
+          {...register('name', { required: 'The field NAME is required.' })}
           className='input_styles'
         />
         {errors.name && <p>{errors.name.message}</p>}
       </div>
       <div className='form_info'>
-        <label htmlFor='surname'>Apellido:</label>
+        <label htmlFor='surname'>Surname:</label>
         <input
           type='text'
-          {...register('surname', { required: 'El apellido es obligatorio' })}
+          {...register('surname', { required: 'The field SURNAME is required. ' })}
           className='input_styles'
         />
         {errors.surname && <p>{errors.surname.message}</p>}
       </div>
 
       <div className='form_info_container'>
-        <label htmlFor='email'>Correo Electronico:</label>
+        <label htmlFor='email'>Mail:</label>
         <input
           type='email'
           {...register('email', {
@@ -63,10 +63,10 @@ const Form = () => {
       </div>
 
       <div className='form_info'>
-        <label htmlFor='description'>Descripcion:</label>
+        <label htmlFor='description'>Message:</label>
         <textarea
           {...register('description', {
-            required: 'La descripcion es obligatoria',
+            required: 'The field MESSAGE is required ',
             minLength: { value: 10, message: 'Minimo 10 caracteres' }
           })}
           id='textarea_description'
@@ -79,7 +79,7 @@ const Form = () => {
         className='div_submit'
       >
         <Button type='submit' colorScheme='whiteAlpha' w='8vw'>
-          Enviar
+          Send
         </Button>
       </motion.div>
     </form>

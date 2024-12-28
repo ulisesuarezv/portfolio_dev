@@ -1,7 +1,7 @@
 import LottieRender from '../../utils/LottieRender'
 import './Footer.css'
-import footer_animation from '/public/footer_animation.json'
-import mail_animation from '/public/card_animation.json'
+import footer_animation from '/src/assets/animations/footer_animation.json'
+import mail_animation from '/src/assets/animations/card_animation.json'
 import { motion } from 'motion/react'
 import { NavLink } from 'react-router-dom'
 

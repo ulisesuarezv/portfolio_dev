@@ -20,3 +20,11 @@
   color: var(--color-font-primary);
   font-size: 10vh;
 }
+
+.img_icons {
+width: 3vw;
+}
+
+.img_icons1 {
+  width: 6vw;
+}

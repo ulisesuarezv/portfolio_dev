@@ -1,7 +1,7 @@
 import LottieRender from '../../utils/LottieRender'
 import './Tarjeta.css'
 import { Box, Card, CardBody, Heading, Stack, Text } from '@chakra-ui/react'
-import animation from '/public/card_box_animation.json'
+import animation from '/src/assets/animations/card_box_animation.json'
 
 const Tarjeta = ({ header, texto }) => {
   return (
